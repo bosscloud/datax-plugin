@@ -4,7 +4,7 @@
 
     <groupId>com.alibaba.datax</groupId>
     <artifactId>datax-all</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>3.0.1-SNAPSHOT</version>
     <dependencies>
         <dependency>
             <groupId>org.hamcrest</groupId>
@@ -18,7 +18,7 @@
 
     <properties>
         <jdk-version>1.8</jdk-version>
-        <datax-project-version>0.0.1-SNAPSHOT</datax-project-version>
+        <datax-project-version>3.0.1-SNAPSHOT</datax-project-version>
         <commons-lang3-version>3.3.2</commons-lang3-version>
         <commons-configuration-version>1.10</commons-configuration-version>
         <commons-cli-version>1.2</commons-cli-version>
@@ -65,7 +65,7 @@
         <module>rdbmsreader</module>
         <module>hbase11xreader</module>
         <module>hbase094xreader</module>
-        <module>tsdbreader</module>
+        <!--<module>tsdbreader</module>-->
         <module>opentsdbreader</module>
         <module>cassandrareader</module>
         <module>gdbreader</module>
@@ -95,7 +95,7 @@
         <module>hbase11xsqlwriter</module>
         <module>hbase11xsqlreader</module>
         <module>elasticsearchwriter</module>
-        <module>tsdbwriter</module>
+        <!--<module>tsdbwriter</module>-->
         <module>adbpgwriter</module>
         <module>gdbwriter</module>
         <module>cassandrawriter</module>
